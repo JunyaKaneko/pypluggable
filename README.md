@@ -20,7 +20,7 @@ class SamplePlugin:
 import pluggable
 
 
-loader = pluggable.Loader('/path/to/plugin/directory')
+loader = pluggable.Loader(['/path/to/plugin/directory', ])
 
 sample_plugin = loder.load('SamplePlugin')
 
