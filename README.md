@@ -5,7 +5,7 @@
 /path/to/plugin/directory/sample.py
 
 ```py3
-import pluggable.plugin
+import pluggable
 
 
 @pluggable.plugin
